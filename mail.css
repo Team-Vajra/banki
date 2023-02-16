@@ -16,6 +16,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid rgba(61, 60, 60, 0.5);
 }
 h2{
     font-size: 2em;
@@ -42,4 +43,21 @@ h2{
 input:focus ~ label,
 input:valid ~ label{
     top: -5px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #777;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #777;
+    font-size: 1.2em;
+    top: 20px;
 }

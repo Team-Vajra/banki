@@ -12,7 +12,7 @@ section{
     background-color: rgb(21, 21, 21);
 }
 section:hover{
-    box-shadow:10px 10px 10px 10px #777;
+    box-shadow:10px 10px 10px 10px rgba(146, 142, 142, 0.5);
 }
 .form-box{
     position: relative;
