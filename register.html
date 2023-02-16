@@ -11,11 +11,26 @@
 <body>
     <section>
         <div class="form-box">
-            <h2>Register</h2>
-            <form action="" >
-                <label for="firstname">Firstname</label>
-                <input type="text" name="fn">
-            </form>
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for="">
+                            <input type="checkbox">Remember Me <a href="#"> Forget Password?</a></label>
+                    </div>
+                    <button>Sign Up</button>
+                </form>
+            </div>
         </div>
     </section>
 </body>
